@@ -80,7 +80,7 @@ class App extends React.Component{
                         }}
                     />
                 <div className={styles.container}>
-//                     <div>
+                    {/*//                     <div>
 //                     <div>
 //                     <img className={styles.image} src={coronaImage} alt="Covid-19" />
 //                     <Cards data={data}/>
@@ -104,6 +104,7 @@ class App extends React.Component{
 //                     </Typography>
 //                     </div>
 //                 </div>
+*/}
                     <h2>hello</h2>
                 </div>
             )
