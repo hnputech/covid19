@@ -2,7 +2,7 @@ import React from "react"
 export const NewComp =()=>{
     return (
         <div style={{
-            backgroundColorL:"green",
+            backgroundColor:"green",
             width :"40px",
             height :"40px"
         }}>
