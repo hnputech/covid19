@@ -15,6 +15,11 @@ class App extends React.Component{
                      <h2>hello</h2>
                      <h2>hello</h2>
                      <h2>hello</h2>
+                     <div>
+                     <h2>body</h2>
+                     <h2>test</h2>
+                     <h2>hello</h2>
+                     </div>
                  </div>
 
                     
