@@ -80,30 +80,31 @@ class App extends React.Component{
                         }}
                     />
                 <div className={styles.container}>
-                    <div>
-                    <div>
-                    <img className={styles.image} src={coronaImage} alt="Covid-19" />
-                    <Cards data={data}/>
-                    <br />
-                    <div align="center">
-                    <CountryPicker handleCountryChange={this.handleCountryChange}/>
-                    <Charts data={data} country={country}/>
-                    </div>
-                    <br />
-                    <br />
-                    </div>
-                    <BottomNavigation value={data} onChange={this.handleChange}>
-                        <BottomNavigationAction click href="https://github.com/sambreen27/covid19" color="#ab0909" label="Github" value="github" icon={<GitHubIcon />} />
-                    </BottomNavigation>
-                    <br />
-                    <Typography align = "center" color = "error" variant = "body2"> Built in React JS with:
-                        <Link color="error" href="https://github.com/mathdroid/covid-19-api" onClick={this.handleClick}> Covid-19 API
-                        </Link>
-                        <br />
-                        <br />
-                    </Typography>
-                    </div>
-                </div>
+//                     <div>
+//                     <div>
+//                     <img className={styles.image} src={coronaImage} alt="Covid-19" />
+//                     <Cards data={data}/>
+//                     <br />
+//                     <div align="center">
+//                     <CountryPicker handleCountryChange={this.handleCountryChange}/>
+//                     <Charts data={data} country={country}/>
+//                     </div>
+//                     <br />
+//                     <br />
+//                     </div>
+//                     <BottomNavigation value={data} onChange={this.handleChange}>
+//                         <BottomNavigationAction click href="https://github.com/sambreen27/covid19" color="#ab0909" label="Github" value="github" icon={<GitHubIcon />} />
+//                     </BottomNavigation>
+//                     <br />
+//                     <Typography align = "center" color = "error" variant = "body2"> Built in React JS with:
+//                         <Link color="error" href="https://github.com/mathdroid/covid-19-api" onClick={this.handleClick}> Covid-19 API
+//                         </Link>
+//                         <br />
+//                         <br />
+//                     </Typography>
+//                     </div>
+//                 </div>
+                    <h2>hello</h2>
                 </div>
             )
     }
