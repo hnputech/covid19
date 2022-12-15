@@ -1,4 +1,5 @@
 import React from 'react';
+import {NewComp} from "./NewComp"
 
 class App extends React.Component{
     state ={
@@ -19,6 +20,9 @@ class App extends React.Component{
                      <h2>body</h2>
                      <h2>test</h2>
                      <h2>hello</h2>
+                     </div>
+                     <div>
+                        <NewComp/>
                      </div>
                  </div>
 
